@@ -1,0 +1,8 @@
+prefix=/home/sam/work_space/devel
+
+Name: question_one
+Description: Description of question_one
+Version: 0.0.0
+Cflags: -I/home/sam/work_space/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

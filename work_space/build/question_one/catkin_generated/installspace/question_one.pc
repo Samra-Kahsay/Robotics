@@ -1,0 +1,8 @@
+prefix=/home/sam/work_space/install
+
+Name: question_one
+Description: Description of question_one
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime
