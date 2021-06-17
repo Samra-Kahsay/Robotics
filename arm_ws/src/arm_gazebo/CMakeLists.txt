@@ -26,6 +26,8 @@ include_directories(${Boost_INCLUDE_DIR}
               ${std_msgs_INCLUDE_DIRS})
 
 add_library(${PROJECT_NAME} SHARED src/controller.cpp)
+add_library(${PROJECT_NAME} SHARED src/gripper_controller.cpp)
+
 target_link_libraries(${PROJECT_NAME} ${catkin_LIBRARIES} ${GAZEBO_LIBRARIES} ${roscpp_LIBRARIES})
 
 

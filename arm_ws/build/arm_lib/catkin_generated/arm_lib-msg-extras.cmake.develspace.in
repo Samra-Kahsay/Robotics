@@ -1,0 +1,2 @@
+set(arm_lib_MESSAGE_FILES "/home/zewe/Downloads/arm_ws/src/arm_lib/msg/gripper_message.h;/home/zewe/Downloads/arm_ws/src/arm_lib/msg/position_message.h")
+set(arm_lib_SERVICE_FILES "/home/zewe/Downloads/arm_ws/src/arm_lib/srv/FK.srv;/home/zewe/Downloads/arm_ws/src/arm_lib/srv/IK.srv")
